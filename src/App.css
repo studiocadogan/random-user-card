@@ -1,0 +1,119 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  background: #d3d3d3;
+  width: 300px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.5);
+}
+ .user-card h1, .user-card a{
+  color: #4b4b4b;
+}
+
+ .user-card h1{
+   margin: 15px 0 0 0;
+ }
+
+ .user-card h3{
+   margin: 0 0 10px 0;
+   font-size: 16px;
+   color: orangered;
+ }
+
+.user-card p{
+   color: #b7b7b7;
+  font-size: 14px;
+ }
+
+.user-card a{
+  text-decoration: none;
+}
+
+.user-card-body{
+  position: relative;
+  background: white;
+  padding: 10px;
+}
+
+
+.user-card .user-eml{
+  font-style: italic;
+}
+
+.user-card .user-loc{
+  font-style: italic;
+}
+
+.user-card .user-dob{
+  font-style: italic;
+}
+
+.user-card .contact-row{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-card *[class^="ss-"]{
+  margin: 5px;
+}
+
+.user-card .img-cont{
+  overflow-y: hidden;
+  height: 200px;
+  position: relative;
+}
+
+.user-card p{
+  margin: 0;
+}
+
+.user-card .user-card-body b{
+  font-size: 14px;
+  font-variant: all-small-caps;
+  color: #4b4b4b;
+  margin-top: 5px;
+}
+
+.user-card h1{
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.country-flag-cont{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.5);
+  z-index: 3;
+}
+
+.user-card .user-bio{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px 6px;
+  background: orangered;
+  color: white;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.5);
+  text-align: center;
+}
+
+.country-flag-cont span{
+  transform: scale(4);
+}
+
+.user-card img{
+  width: 100%;
+  height: auto;
+
+}
+
+
